@@ -1,8 +1,8 @@
-# PR
+# ISSUE
 
 ## 종류
 
-PR 종류를 선택하세요
+ISSUE 종류를 선택하세요
 
 - [ ] Code Review
 - [ ] New Feature
