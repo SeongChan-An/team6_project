@@ -2,6 +2,7 @@
 
 @import "reset.css";
 @import "variables.css";
+@import "screens/login.css";
 
 @font-face {
   font-family: "SpoqaHanSansNeo-400";

@@ -1,0 +1,76 @@
+.main-logo {
+  height: 100vh;
+  background-color: var(--main-color);
+}
+.main-logo .cont-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 293px);
+}
+.cont-logo .img-logo {
+  width: 144px;
+  height: 144px;
+}
+.main-logo .sign-in {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 45px 34px;
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
+}
+.sign-in .btn-sns-login {
+  width: 100%;
+  margin: 5px 0;
+  padding: 13px 0;
+  border: 1px solid #f2c94c;
+  border-radius: 30px;
+  background: url("../../images/sns/message.png") no-repeat 17px 50%;
+  background-size: 24px 24px;
+  font-size: 14px;
+}
+.sign-in .btn-sns-login:nth-child(2) {
+  background-image: url("../../images/sns/Google.png");
+  border-color: #767676;
+}
+.sign-in .btn-sns-login:nth-child(3) {
+  background-image: url("../../images/sns/facebook.png");
+  border-color: #2d9cdb;
+}
+.sign-in .list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 12px;
+}
+.list-link li:first-child::after {
+  content: "|";
+  display: inline-block;
+  position: absolute;
+  color: #c4c4c4;
+}
+.list-link a[class^="link"] {
+  margin: 0 12px;
+}
+
+.splach-screen {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: url("../../images/logos/full-logo.png") no-repeat #fff;
+  background-position: 50% 40%;
+  animation: splash 0.5s ease-in-out 0.5s forwards;
+}
+
+@keyframes splash {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
