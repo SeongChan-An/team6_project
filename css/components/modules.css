@@ -1,3 +1,21 @@
+/* Main style */
+.main-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px 34px;
+  background-color: #fff;
+}
+.main-user h2.title-main {
+  margin-bottom: 40px;
+  color: var(--black);
+  font-size: 24px;
+}
+.main-user form {
+  width: 100%;
+}
+
 /* Button style */
 .btn-lg {
   width: 100%;
@@ -33,6 +51,9 @@
 .box-input input[type="password"] {
   letter-spacing: 3px;
 }
+.box-input input[type="password"]::placeholder {
+  letter-spacing: 0;
+}
 .box-input input::placeholder {
   color: #dbdbdb;
   font-size: 14px;
@@ -47,6 +68,6 @@
   color: var(--error-color);
   font-size: 12px;
 }
-.box-input .txt-error.error {
+.box-input input.error + .txt-error {
   display: block;
 }
