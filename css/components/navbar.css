@@ -1,0 +1,27 @@
+.nav-bar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-top: var(--border);
+  background-color: #fff;
+  z-index: 100;
+}
+.nav-bar .list-tap-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar .list-tap-menu .link-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 60px;
+  font-size: 10px;
+}
+.list-tap-menu .link-menu .img-icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}

@@ -5,10 +5,13 @@
 
 /* components */
 @import "components/modules.css";
+@import "components/navbar.css";
+@import "components/header-main.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/login-email.css";
+@import "screens/home-main.css";
 
 @font-face {
   font-family: "SpoqaHanSansNeo-400";

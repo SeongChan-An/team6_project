@@ -1,0 +1,25 @@
+.home-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 108px);
+  margin-top: 48px;
+  font-size: 14px;
+}
+
+.home-main .cont-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main .home-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 25px;
+}
+
+.home-main .btn-search {
+  margin-top: 20px;
+}
