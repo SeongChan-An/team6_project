@@ -2,7 +2,13 @@
 
 @import "reset.css";
 @import "variables.css";
+
+/* components */
+@import "components/modules.css";
+
+/* screens */
 @import "screens/login.css";
+@import "screens/login-email.css";
 
 @font-face {
   font-family: "SpoqaHanSansNeo-400";

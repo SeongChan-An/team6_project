@@ -1,0 +1,19 @@
+.main-login-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px 34px;
+  background-color: #fff;
+}
+.main-login-email .title-main {
+  margin-bottom: 40px;
+  color: var(--black);
+  font-size: 24px;
+}
+.main-login-email .form-login {
+  width: 100%;
+}
+.main-login-email .link-signup {
+  font-size: 12px;
+}
