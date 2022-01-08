@@ -79,6 +79,9 @@
   color: var(--error-color);
   font-size: 12px;
 }
+.box-input input.error {
+  border-color: var(--error-color);
+}
 .box-input input.error + .txt-error {
   display: block;
 }

@@ -11,6 +11,7 @@
 /* screens */
 @import "screens/login.css";
 @import "screens/login-email.css";
+@import "screens/set-profile.css";
 @import "screens/home-main.css";
 
 @font-face {
