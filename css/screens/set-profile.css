@@ -1,0 +1,27 @@
+.main-signup h2.title-main {
+  margin-bottom: 0;
+}
+.main-signup .box-set-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0 30px;
+}
+.box-set-profile p {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.box-set-profile .box-profile-img {
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+.box-set-profile .box-profile-img .btn-upload {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 36px;
+  height: 36px;
+  background: url("../../images/upload-file.png") no-repeat;
+  background-size: 100%;
+}
