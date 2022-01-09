@@ -1,0 +1,32 @@
+.cont-lists {
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 48px;
+  width: 100%;
+  margin-top: 4px;
+  /* background-color: antiquewhite; */
+}
+.cont-lists .list-item {
+  display: flex;
+  width: 100%;
+  margin: 16px;
+}
+.cont-lists .list-item .list-img-profile {
+  width: 50px;
+  height: 50px;
+}
+.cont-lists .list-item .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 12px;
+}
+.list-item .user-info .user-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.list-item .user-info .user-id {
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,73 @@
+.main-posts {
+  display: flex;
+  padding: 16px 20px 16px 16px;
+}
+
+.main-posts .post-user {
+  min-width: 50px;
+  min-height: 50px;
+}
+.main-posts .post {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.main-posts .post .post-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.post .post-header .title {
+  padding-top: 4px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.post .post-header .user-id {
+  font-size: 12px;
+  font-weight: 400;
+}
+.post .post-header .btn-options {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+  content: "";
+  background-image: url("../../images/icons/s-icon-more-vertical.png");
+}
+.post .post-txt-contents {
+  margin: 16px 0;
+}
+
+.post .btn-lists {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.post .btn-lists li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.btn-icon-heart,
+.btn-icon-message {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.btn-icon-heart {
+  background: url("../../images/icons/icon-heart.png");
+}
+
+.btn-icon-message {
+  background: url("../../images/icons/icon-message-circle.png");
+}
